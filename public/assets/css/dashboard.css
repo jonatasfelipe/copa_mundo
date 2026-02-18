@@ -1,0 +1,58 @@
+:root {
+  --stadium-green: #0a4d2e;
+  --grass-bright: #1a8c4f;
+  --field-yellow: #ffd700;
+  --trophy-gold: #ffb300;
+  --pitch-white: #f5f5f5;
+  --night-sky: #0a1628;
+  --energy-red: #e31e24;
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+  background: var(--stadium-green);
+  color: var(--pitch-white);
+}
+
+nav {
+  background: var(--night-sky);
+}
+
+nav>ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  list-style: none;
+  min-height: 5vh;
+}
+
+nav>ul>li>a {
+  color: var(--pitch-white);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 10px 20px;
+}
+
+.conteudoDinamico {
+  margin: 0 auto;
+  min-height: 80vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3vh;
+}
+
+table {
+  text-align: center;
+  width: 80%;
+  border-collapse: collapse;
+  color: var(--pitch-white);
+}
